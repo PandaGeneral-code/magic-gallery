@@ -4,9 +4,9 @@ import styled from "styled-components";
 export const SingleImage = styled(motion.div)`
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 20px;
-  height: 300px;
+  height: 750px;
   overflow: hidden auto;
-  width: 500px;
+  width: 750px;
 `;
 
 const Wrapper = styled.div`

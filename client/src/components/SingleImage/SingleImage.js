@@ -7,7 +7,7 @@ const SingleImage = ({ children, color }) => {
   return (
     <Wrapper>
       <SI layout layoutId={color} style={{ backgroundColor: color }}>
-        <Scrollbars style={{ height: 300, width: 500 }}>{children}</Scrollbars>
+        <Scrollbars autoHide>{children}</Scrollbars>
       </SI>
     </Wrapper>
   );

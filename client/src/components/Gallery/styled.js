@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const GalleryItem = styled(motion.li).attrs(() => ({}))`
   cursor: pointer;
   border-radius: 10px;
-  flex: 1 1 100px;
+  flex: 1 1 200px;
   margin: 20px 0 0 20px;
   padding: 20px;
 `;
@@ -15,11 +15,11 @@ const Wrapper = styled.ul`
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  height: 1000px;
   justify-content: space-between;
   list-style: none;
   padding: 0 20px 20px 0;
-  width: 500px;
+  width: 1000px;
 `;
 
 export default Wrapper;
